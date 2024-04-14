@@ -13,14 +13,14 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="my website … hopefully at some point :D" />
 <meta property="og:description" content="my website … hopefully at some point :D" />
-<link rel="canonical" href="https://mediazard.github.io/havrylov.me/" />
-<meta property="og:url" content="https://mediazard.github.io/havrylov.me/" />
+<link rel="canonical" href="https://mediazard.github.io/havrylov.me/contact.html" />
+<meta property="og:url" content="https://mediazard.github.io/havrylov.me/contact.html" />
 <meta property="og:site_name" content="I.H. srls" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="I.H. srls - Consulenza informatica" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"my website … hopefully at some point :D","headline":"I.H. srls - Consulenza informatica","name":"I.H. srls","url":"https://mediazard.github.io/havrylov.me/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"my website … hopefully at some point :D","headline":"I.H. srls - Consulenza informatica","url":"https://mediazard.github.io/havrylov.me/contact.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -50,18 +50,43 @@
     </header>
     <main class="min-h-2/4 flex flex-col content-center justify-center grow border-y-4 border-solid border-logo-black p-10">
       <article class="text-center flex flex-col gap-y-1 justify-center items-center text-logo-black">
-  <img src="/havrylov.me/assets/images/logo.svg" class="w-28 h-28 mb-5" />
+  <h1 >
+    Contattaci
+  </h1>
+  <form 
+    id="form"
+    action="https://formkeep.com/f/8d114fdbbd07"
+    accept-charset="UTF-8"
+    enctype="multipart/form-data"
+    method="POST"
+    class="flex flex-col gap-y-5 justify-center items-center text-logo-black p-5"
+  >
+  <input type="hidden" name="utf8" value="✓">
 
-  <h1 class="font-medium text-6xl mb-5">I.H. srls</h1>
-  <h2 class="text-xl"><strong>Consulenza informatica</strong></h2>
-  <h2 class="text-xl"><strong>soluzioni digitali</strong></h2>
-  <h2 class="text-xl">
-    sviluppo <strong>Web</strong> e <strong>Mobile</strong>
-  </h2>
-  <h2 class="text-xl">sviluppo <strong>gestionali</strong></h2>
+  <label for="email-address">Email Address</label>
+  <input type="email" id="email-address" name="email"  class="w-full border-2 border-solid border-logo-black p-2 text-lg">
 
-  <a href="/havrylov.me/contact" class="bg-logo-red text-white font-medium p-2 mt-5">Contattaci</a>
+  <label for="message">Message</label>
+  <textarea id="message" name="message" class="w-full border-2 border-solid border-logo-black p-2 text-lg"></textarea>
+
+  <button class="g-recaptcha bg-logo-red text-white font-medium p-2 mt-5 w-full"
+    data-sitekey="6Lfs2ropAAAAAJIVN6C4NzYrDn_bkG7QoHLL8DFV"
+    data-callback='onSubmit'
+    data-action='submit'
+  >
+    Invia
+  </button>
+</form>
+
 </article>
+
+
+<!-- Replace the variables below. -->
+<script>
+  function onSubmit(token) {
+    document.getElementById("form").submit();
+  }
+</script>
     </main>
     <footer class="h-1/4 bg-logo-red flex flex-col justify-center items-center text-white font-medium justify-self-end">
       <div>I.H. srls</div>
