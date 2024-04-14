@@ -1,0 +1,9 @@
+url: "https://havrylov.me"
+baseurl: "/"
+title: "I.H. srls"
+
+plugins:
+  - jekyll-postcss
+  - jekyll-seo-tag
+postcss:
+  cache: false

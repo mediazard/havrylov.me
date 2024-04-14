@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <div class="m-auto h-screen max-w-screen-md border-solid border-4 border-logo-black flex flex-col">
+    <header class="bg-logo-red w-full h-1/4 p-6 grid gap-y-4 grid-cols-12 grid-rows-3 justify-items-center">
+      <div class="w-4 bg-white h-full row-start-1 row-end-1 col-start-1 col-end-1"></div>
+      <div class="w-4 bg-white h-full row-start-1 row-end-1 col-start-3 col-end-3"></div>
+      <div class="w-4 bg-white h-full row-start-1 row-end-1 col-start-5 col-end-5"></div>
+      <div class="w-4 bg-white h-full row-start-1 row-end-1 col-start-7 col-end-7"></div>
+      <div class="w-4 bg-white h-full row-start-1 row-end-1 col-start-9 col-end-9"></div>
+      <div class="w-4 bg-white h-full row-start-1 row-end-1 col-start-11 col-end-11"></div>
+
+      <div class="w-4 bg-white h-full row-start-2 row-end-2 col-start-2 col-end-2"></div>
+      <div class="w-4 bg-white h-full row-start-2 row-end-2 col-start-4 col-end-4"></div>
+      <div class="w-4 bg-white h-full row-start-2 row-end-2 col-start-6 col-end-6"></div>
+      <div class="w-4 bg-white h-full row-start-2 row-end-2 col-start-8 col-end-8"></div>
+      <div class="w-4 bg-white h-full row-start-2 row-end-2 col-start-10 col-end-10"></div>
+      <div class="w-4 bg-white h-full row-start-2 row-end-2 col-start-12 col-end-12"></div>
+
+      <div class="w-4 bg-white h-full row-start-3 row-end-3 col-start-1 col-end-1"></div>
+      <div class="w-4 bg-white h-full row-start-3 row-end-3 col-start-3 col-end-3"></div>
+      <div class="w-4 bg-white h-full row-start-3 row-end-3 col-start-5 col-end-5"></div>
+      <div class="w-4 bg-white h-full row-start-3 row-end-3 col-start-7 col-end-7"></div>
+      <div class="w-4 bg-white h-full row-start-3 row-end-3 col-start-9 col-end-9"></div>
+      <div class="w-4 bg-white h-full row-start-3 row-end-3 col-start-11 col-end-11"></div>
+    </header>
+    <main class="min-h-2/4 flex content-center justify-center grow border-y-4 border-solid border-logo-black p-10">
+      {{ content }}
+    </main>
+    <footer class="h-1/4 bg-logo-red flex flex-col justify-center items-center text-white font-medium justify-self-end">
+      <div>I.H. srls</div>
+      <div>IT 03951800980</div>
+      <div>Brescia</div>
+    </footer>
+  </div>
+</body>
+</html>
