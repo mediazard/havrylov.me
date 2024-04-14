@@ -4,7 +4,7 @@ title: "I.H. srls"
 repository: mediazard/havrylov.me
 
 plugins:
-  - jekyll-postcss
+  - jekyll-postcss-v2
   - jekyll-seo-tag
 postcss:
   cache: false
