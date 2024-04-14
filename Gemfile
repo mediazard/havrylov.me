@@ -4,12 +4,13 @@ source 'https://rubygems.org'
 
 # gem 'rails'
 
-gem 'jekyll', '~> 4.3'
+gem 'jekyll'
 gem 'webrick'
 
 group 'jekyll_plugins' do
-  gem 'jekyll-postcss', '~> 0.5.0'
+  gem 'jekyll-postcss'
   gem 'jekyll-seo-tag'
+  gem 'github-pages'
 end
 
 group :development do
