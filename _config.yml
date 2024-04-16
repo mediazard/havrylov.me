@@ -1,7 +1,7 @@
 url: "https://havrylov.me"
-baseurl: "/"
+baseurl: ""
 title: "I.H. srls"
-repository: mediazard/havrylov.me
+# repository: mediazard/havrylov.me
 
 plugins:
   - jekyll-postcss-v2
